@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <div class="logo">
+      <img src="logo.jpg" alt="My Logo">
+      <span class="site-name">Portfolio</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <!--<li><a href="#education">Education</a></li>-->
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sections -->
+  <section id="about">
+    <div class="about-container">
+      <div class="about-photo">
+        <img src="logo.jpg" alt="My Photo">
+      </div>
+      <div class="about-text">
+        <h2>Harsha Dinni Sri</h2>
+        <p>
+          I am a dedicated and enthusiastic individual with a passion for technology and problem-solving. 
+          With experience in web development and a keen interest in creating efficient and elegant solutions, 
+          I strive to continuously learn and improve my skills. I am eager to contribute my knowledge and 
+          creativity to impactful projects while exploring opportunities for professional growth.
+        </p>
+      
+        <!-- Social Links -->
+        <div class="social-links">
+          <a href="https://linkedin.com/in/harsha2k5" target="_blank">
+            <img src="linkedin.png" >
+          </a>
+          <a href="https://github.com/harshadinnisri" target="_blank">
+            <img src="github.png" alt="GitHub">
+          </a>
+          <a href="https://leetcode.com/u/Harshadinnisri/" target="_blank">
+            <img src="leetcode.png" alt="LeetCode">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h1>My Skills</h1>
+
+    <div class="skills-grid">
+
+      <!-- Python -->
+      <div class="skill-card">
+        <img src="python.png" alt="Python Logo">
+        <h3>Python</h3>
+        <p>Proficient in Python for programming and problem-solving, with knowledge of OOPs and libraries for automation and data handling.</p>
+      </div>
+
+      <!-- Java -->
+      <div class="skill-card">
+        <img src="java.png" alt="Java Logo">
+        <h3>Java</h3>
+        <p>Strong understanding of Java fundamentals, object-oriented programming, and developing efficient, structured code.</p>
+      </div>
+
+      <!-- C -->
+      <div class="skill-card">
+        <img src="c.png" alt="C Logo">
+        <h3>C</h3>
+        <p>Solid foundation in C programming for building structured programs and understanding low-level concepts.</p>
+      </div>
+
+      <!-- DSA -->
+      <div class="skill-card">
+        <h3>Data Structures & Algorithms</h3>
+        <p>Good problem-solving skills with knowledge of arrays, Strings, linked lists and algorithmic techniques.</p>
+      </div>
+
+      <!-- HTML -->
+      <div class="skill-card">
+        <img src="html.png" alt="HTML Logo">
+        <h3>HTML</h3>
+        <p>Skilled in creating structured web pages with semantic HTML elements.</p>
+      </div>
+
+      <!-- CSS -->
+      <div class="skill-card">
+        <img src="css.png" alt="CSS Logo">
+        <h3>CSS</h3>
+        <p>Capable of styling web pages with modern layouts, flexbox, grid, and responsive design principles.</p>
+      </div>
+
+      <!-- JavaScript -->
+      <div class="skill-card">
+        <img src="javascript.png" alt="JavaScript Logo">
+        <h3>JavaScript</h3>
+        <p>Experienced in adding interactivity, DOM manipulation, and creating dynamic web applications.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications" class="section">
+    <h1>Certifications</h1>
+    <ul class="cert-list">
+      <li><a href="https://drive.google.com/file/d/1w4d7pQVeGJ00w_Lpw_20M4ETAiueGQIO/view?usp=drivesdk" target="_blank">ServiceNow CAD</a></li>
+      <li><a href="https://drive.google.com/file/d/1w0YlsmNoa1vO65tXvCPyMjtLNsVXQ5gT/view?usp=drivesdk" target="_blank">ServiceNow CSA</a></li>
+      <li><a href="https://drive.google.com/file/d/1zMr1bw_Pckr49Wtidj_IZNZOn1X8oTFd/view?usp=drivesdk" target="_blank">Salesforce AI Associate</a></li>
+      <li><a href="https://drive.google.com/file/d/1zOhhGUkWgSC6OlEM0xOw4epnSn1m-LMc/view?usp=drivesdk" target="_blank">Google AI/ML</a></li>
+      <li><a href="https://drive.google.com/file/d/1zRaPL8QJnkMldmISxgOEjQaCb8PgvQHE/view?usp=drivesdk" target="_blank">NPTEL- Joy of Computiong Using Python</a></li>
+      <li><a href="https://drive.google.com/file/d/1zNbLqRdCdrphKkAKAddFH_VQd6OdIdxQ/view?usp=drivesdk" target="_blank">NPTEL-DBMS</a></li>
+    </ul>
+  </section>
+
+  <section id="achievements" class="section">
+    <h1>Achievements</h1>
+    <div class="achievements-grid">
+      <img src="1.jpg" alt="ach 1">
+      <img src="2.jpg" alt="ach 2">
+      <img src="3.jpg" alt="ach 3">
+      <img src="4.jpg" alt="ach4">
+      <img src="5.jpg" alt="ach5">
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h1>Projects</h1>
+    <div class="projects-container">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <h2>Leaf Disease Detection System</h2>
+        <p>This web-based project leverages ML algorithms and Computer Vision techniques to identify and
+ classify leaf diseases, enabling farmers to take prompt action. Built using TensorFlow, Keras, OpenCV.</p>
+        <a href="https://github.com/account" target="_blank" class="project-btn">Go</a>
+      </div>
+      
+      <!-- Project 2 -->
+      <div class="project-card">
+        <h2>ChessCart</h2>
+        <p>Developed a chess e-commerce website with features like item browsing, cart management, and real
+time total calculation using JavaScript</p>
+        <a href="https://github.com/account" target="_blank" class="project-btn">Go</a>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Info -->
+  <div class="contact-info">
+    <p>📞 <strong>+91 9491522189</strong></p>
+    <p>✉️ <strong>jittukaharsha@gmail.com</strong></p>
+    <p>📍 <strong>Kakinada, Andhra Pradesh</strong></p>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
